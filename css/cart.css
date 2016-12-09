@@ -1,0 +1,124 @@
+#warp_cart{
+	width:1200px;
+	padding-bottom:100px;
+	margin:0 auto;
+}
+.cart_tu{
+	height:44px;
+	line-height:44px;
+	font-size:18px;
+	padding-left: 20px;
+}
+.num_cart{
+	color:red;
+}
+.table_box{
+	width:1200px;
+}
+.ul_cart{
+	width:1200px;
+	overflow:hidden;
+	border:1px solid #dedede;
+	background:#DEDEDE;
+	color:#333;
+}
+.ul_cart li{
+	float:left;
+	margin:10px 20px;
+	text-align:center;
+	width:100px;
+}
+.ul_cart .li_width1{
+	width:250px;
+}
+.ul_cart .li_width2{
+	width:150px;
+}
+.trade_box{
+	min-height: 200px;
+	background:url(../img/product/shoping.png) no-repeat;
+}
+.shop_name{
+	margin-left: 53px;
+	margin-top:10px;
+	padding:10px 0;
+}
+.trade_mes{
+	width:1200px;
+	overflow:hidden;
+	border:1px solid #dedede;
+	background:whitesmoke;
+	color:#333;
+}
+.trade_mes li{
+	float:left;
+	margin:10px 20px;
+	text-align:center;
+	width:100px;
+}
+.trade_mes .li_width1{
+	width:250px;
+}
+.trade_mes .li_width2{
+	width:150px;
+}
+.trade_mes img{
+	width:50px;
+	height:60px;
+}
+.trade_mes .li_padd{
+	text-align:left;
+	padding-left: 32px;
+	width:68px
+}
+.trade_mes .delss{
+	padding:5px 10px;
+	background:#DEDEDE;
+	cursor:pointer;
+}
+.trade_mes .numbers{
+	padding:5px 10px;
+	margin:0;
+	background:white;
+}
+.trade_mes .addss{
+	padding:5px 10px;
+	background:#DEDEDE;
+	margin:0;
+	cursor:pointer;
+}
+.price_col{
+	color:#E11516;
+	font-size:14px;
+	font-weight:bold;
+}
+.ul_buy{
+	margin-top:20px;
+	width:1200px;
+	overflow:hidden;
+	border:1px solid #dedede;
+	color:#333;
+}
+.ul_buy li{
+	float:left;
+	margin:10px 0;
+	text-align:center;
+	width:140px;
+}
+.ul_buy .li_width1{
+	width:250px;
+}
+.ul_buy .li_width2{
+	width:250px;
+}
+.ul_buy .go_buy{
+	margin:0;
+	padding:10px 0;
+	background:#FF4D4D;
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}
+.ul_buy .go_buy:hover{
+	background:#A51617;
+}

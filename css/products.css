@@ -1,0 +1,141 @@
+
+#product_wrap{
+/*	height: 500px;*/
+	width:1200px;
+	margin:0 auto;
+}
+.crumbs_bar{
+	margin-top:20px
+	width:1200px;
+}
+.crumbs_ul{
+	float:left;
+}
+.crumbs_ul li{
+	margin-top:20px;
+	float:left;
+	margin-right:10px;
+}
+.crumbs_ul li a{
+	color:#666;
+}
+.crumbs_ul li.arrow{
+	color:#999;
+}
+.crumbs_ul li.main-cate{
+	border:1px solid #ccc;
+	/*padding:3px 10px 3px 5px;*/
+}
+.total{
+	margin-top:20px;
+	float:right;
+	font-size:10px;
+	color:#666;
+}
+.total em{
+	color:#A51617;
+}
+.series{
+	margin-top:20px;
+	padding:15px;
+	border:1px solid #ccc;
+	background:#DEDEDE;
+	color:#666;
+}
+.series a{
+	padding-left:5px;
+}
+.z-security-service{
+	padding-top:25px;
+}
+.z-security-service a{
+	display:inline-block;
+	padding:2px 10px 5px 23px;
+	color:#666;
+}
+.z-security-service a:hover{
+	text-decoration:none;
+}
+.a_ser_1{
+	background:url(../img/product/zolcom_list_ico.png) no-repeat left bottom;
+}
+.a_ser_2{
+	background:url(../img/product/service.png) no-repeat;
+}
+.a_ser_3{
+	background:url(../img/product/service.png) no-repeat 0 -24px;
+}
+.a_ser_4{
+	background:url(../img/product/service.png) no-repeat 0 -72px;
+}
+.a_ser_5{
+	background:url(../img/product/service.png) no-repeat 0 -95px;
+}
+.a_ser_6{
+	background:url(../img/product/service.png) no-repeat 0 -119px;
+}
+
+.toolbar{
+	height:36px;
+	border:1px solid #DEDEDE;
+	margin-top:10px;
+}
+.toolbar .toolbar_ul li{
+	height:36px;
+	line-height:36px;
+	float:left;
+	padding:0 10px;
+}
+.product_list{
+	width:1200px;
+	margin-top:15px;
+}
+.p_list_ul li{
+	width:206px;
+	padding:15px 16px;
+	height:350px;
+	float:left;
+	border:1px solid white;
+}
+.p_list_ul li:hover{
+	border-color:#A51617;
+}
+.p_list_ul li .title{
+	padding:20px 0 5px; 0 
+}
+.p_list_ul li .title a{
+	color:#333;
+}
+.p_list_ul li .title a span{
+	color:red;
+}
+.p_list_ul li .title a:hover{
+	color:brown;
+}
+.p_list_ul li .price-bar{
+	font-size:18px;
+	color:#A51617;
+	padding-bottom:5px;
+}
+.volume{
+	color:#999;
+	padding-bottom:5px;
+}
+.volume em{
+	color:cornflowerblue;
+}
+.volume .evaluation{
+	float: right;
+}
+.shop-infor p{
+	padding-bottom:5px;
+}
+.shop-infor p a{
+	color:#666;
+}
+.shop-infor p a:hover{
+	color:brown;
+}
+.total-volume{
+	color:#999;
+}

@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车</title>
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/index.css">
+		<link rel="stylesheet" href="../css/detail.css">
+		<link rel="stylesheet" href="../css/products.css">
+		<link rel="stylesheet" href="../css/footer.css">
+		<link rel="stylesheet" href="../css/cart.css">
+		
+		
+		
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/common.js"></script>	
+		<script src="../js/index.js"></script>
+		<script src="../js/products.js"></script>
+		<script src="../lib/jquery.cxslide.min.js"></script>
+		<script src="../js/footer.js"></script>
+		<script src="../js/login.js"></script>
+		<!--<script src="../js/detail.js"></script>-->
+		<!--<script src="../js/cart.js"></script>-->
+	</head>
+	<body>
+		<div id="header"></div>
+	<div id="nav">
+		<div id="wrap-nav">
+			<div id="main-nav">
+				<h3 class="main-nav-title">全部商品分类</h3>
+				<div class="main-nav-contain" style="display: none;">
+					<ul class="nav-contain-ul">
+						<li>
+							<div class="type">
+								手机通信<span class="icon-1"></span>
+							</div>
+							<div class="contain">
+								<a href="#">手机通信</a>
+								<a href="#">手机配件</a>
+							</div>
+							<div class="category-nav">
+								<div class="category-nav-right">
+									<div class="category-top">
+										<dl>
+											<dt>服务保障</dt>
+											<dd>
+												<a href="#" target="_blank"> 
+												<i class="bb-icon1"></i>
+												行货保证
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon2"></i>
+													发票保障
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon3"></i>
+													24小时发货
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon4"></i>
+													顺丰包邮
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon5"></i>
+													无忧退换
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon6"></i>
+													先行赔付
+												</a>
+		
+											</dd>
+										</dl>
+									</div>
+									<div class="category-conter">
+										<dl>
+											<dt>
+												<a href="#">手机通讯</a>	
+											</dt>
+											<dd>
+												<a href="#">手机</a>
+											</dd>
+											<div class="clear"></div>
+											<dt><a href="#">手机配件</a></dt>
+											<dd>
+											<a href="#">手机保护套</a>
+											<a href="#">移动电源</a>
+											<a href="#">手机电池</a>
+											<a href="#">手机充电器</a>
+											<a href="#">手机数据线</a>
+											<a href="#">手机贴膜</a>	
+											</dd>
+										</dl>
+									</div>
+									<div class="category-link">
+										<a href="#" class="a-link1"></a>
+										<a href="#" class="a-link2"></a>
+										<a href="#" class="a-link3"></a>
+										<a href="#" class="a-link4"></a>
+										<a href="#" class="a-link5"></a>
+										<a href="#" class="a-link6"></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="type">
+								手机通信<span class="icon-1"></span>
+							</div>
+							<div class="contain">
+								<a href="#">手机通信</a>
+								<a href="#">手机配件</a>
+							</div>
+							<div class="category-nav">
+								<div class="category-nav-right">
+									<div class="category-top">
+										<dl>
+											<dt>服务保障</dt>
+											<dd>
+												<a href="#" target="_blank"> 
+												<i class="bb-icon1"></i>
+												行货保证
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon2"></i>
+													发票保障
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon3"></i>
+													24小时发货
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon4"></i>
+													顺丰包邮
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon5"></i>
+													无忧退换
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon6"></i>
+													先行赔付
+												</a>
+		
+											</dd>
+										</dl>
+									</div>
+									<div class="category-conter">
+										<dl>
+											<dt>
+												<a href="#">手机通讯</a>	
+											</dt>
+											<dd>
+												<a href="#">手机</a>
+											</dd>
+											<div class="clear"></div>
+											<dt><a href="#">手机配件</a></dt>
+											<dd>
+											<a href="#">手机保护套</a>
+											<a href="#">移动电源</a>
+											<a href="#">手机电池</a>
+											<a href="#">手机充电器</a>
+											<a href="#">手机数据线</a>
+											<a href="#">手机贴膜</a>	
+											</dd>
+										</dl>
+									</div>
+									<div class="category-link">
+										<a href="#" class="a-link1"></a>
+										<a href="#" class="a-link2"></a>
+										<a href="#" class="a-link3"></a>
+										<a href="#" class="a-link4"></a>
+										<a href="#" class="a-link5"></a>
+										<a href="#" class="a-link6"></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="type">
+								手机通信<span class="icon-1"></span>
+							</div>
+							<div class="contain">
+								<a href="#">手机通信</a>
+								<a href="#">手机配件</a>
+							</div>
+							<div class="category-nav">
+								<div class="category-nav-right">
+									<div class="category-top">
+										<dl>
+											<dt>服务保障</dt>
+											<dd>
+												<a href="#" target="_blank"> 
+												<i class="bb-icon1"></i>
+												行货保证
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon2"></i>
+													发票保障
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon3"></i>
+													24小时发货
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon4"></i>
+													顺丰包邮
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon5"></i>
+													无忧退换
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon6"></i>
+													先行赔付
+												</a>
+		
+											</dd>
+										</dl>
+									</div>
+									<div class="category-conter">
+										<dl>
+											<dt>
+												<a href="#">手机通讯</a>	
+											</dt>
+											<dd>
+												<a href="#">手机</a>
+											</dd>
+											<div class="clear"></div>
+											<dt><a href="#">手机配件</a></dt>
+											<dd>
+											<a href="#">手机保护套</a>
+											<a href="#">移动电源</a>
+											<a href="#">手机电池</a>
+											<a href="#">手机充电器</a>
+											<a href="#">手机数据线</a>
+											<a href="#">手机贴膜</a>	
+											</dd>
+										</dl>
+									</div>
+									<div class="category-link">
+										<a href="#" class="a-link1"></a>
+										<a href="#" class="a-link2"></a>
+										<a href="#" class="a-link3"></a>
+										<a href="#" class="a-link4"></a>
+										<a href="#" class="a-link5"></a>
+										<a href="#" class="a-link6"></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="type">
+								手机通信<span class="icon-1"></span>
+							</div>
+							<div class="contain">
+								<a href="#">手机通信</a>
+								<a href="#">手机配件</a>
+							</div>
+							<div class="category-nav">
+								<div class="category-nav-right">
+									<div class="category-top">
+										<dl>
+											<dt>服务保障</dt>
+											<dd>
+												<a href="#" target="_blank"> 
+												<i class="bb-icon1"></i>
+												行货保证
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon2"></i>
+													发票保障
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon3"></i>
+													24小时发货
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon4"></i>
+													顺丰包邮
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon5"></i>
+													无忧退换
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon6"></i>
+													先行赔付
+												</a>
+		
+											</dd>
+										</dl>
+									</div>
+									<div class="category-conter">
+										<dl>
+											<dt>
+												<a href="#">手机通讯</a>	
+											</dt>
+											<dd>
+												<a href="#">手机</a>
+											</dd>
+											<div class="clear"></div>
+											<dt><a href="#">手机配件</a></dt>
+											<dd>
+											<a href="#">手机保护套</a>
+											<a href="#">移动电源</a>
+											<a href="#">手机电池</a>
+											<a href="#">手机充电器</a>
+											<a href="#">手机数据线</a>
+											<a href="#">手机贴膜</a>	
+											</dd>
+										</dl>
+									</div>
+									<div class="category-link">
+										<a href="#" class="a-link1"></a>
+										<a href="#" class="a-link2"></a>
+										<a href="#" class="a-link3"></a>
+										<a href="#" class="a-link4"></a>
+										<a href="#" class="a-link5"></a>
+										<a href="#" class="a-link6"></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="type">
+								手机通信<span class="icon-1"></span>
+							</div>
+							<div class="contain">
+								<a href="#">手机通信</a>
+								<a href="#">手机配件</a>
+							</div>
+							<div class="category-nav">
+								<div class="category-nav-right">
+									<div class="category-top">
+										<dl>
+											<dt>服务保障</dt>
+											<dd>
+												<a href="#" target="_blank"> 
+												<i class="bb-icon1"></i>
+												行货保证
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon2"></i>
+													发票保障
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon3"></i>
+													24小时发货
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon4"></i>
+													顺丰包邮
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon5"></i>
+													无忧退换
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon6"></i>
+													先行赔付
+												</a>
+		
+											</dd>
+										</dl>
+									</div>
+									<div class="category-conter">
+										<dl>
+											<dt>
+												<a href="#">手机通讯</a>	
+											</dt>
+											<dd>
+												<a href="#">手机</a>
+											</dd>
+											<div class="clear"></div>
+											<dt><a href="#">手机配件</a></dt>
+											<dd>
+											<a href="#">手机保护套</a>
+											<a href="#">移动电源</a>
+											<a href="#">手机电池</a>
+											<a href="#">手机充电器</a>
+											<a href="#">手机数据线</a>
+											<a href="#">手机贴膜</a>	
+											</dd>
+										</dl>
+									</div>
+									<div class="category-link">
+										<a href="#" class="a-link1"></a>
+										<a href="#" class="a-link2"></a>
+										<a href="#" class="a-link3"></a>
+										<a href="#" class="a-link4"></a>
+										<a href="#" class="a-link5"></a>
+										<a href="#" class="a-link6"></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="type">
+								手机通信<span class="icon-1"></span>
+							</div>
+							<div class="contain">
+								<a href="#">手机通信</a>
+								<a href="#">手机配件</a>
+							</div>
+							<div class="category-nav">
+								<div class="category-nav-right">
+									<div class="category-top">
+										<dl>
+											<dt>服务保障</dt>
+											<dd>
+												<a href="#" target="_blank"> 
+												<i class="bb-icon1"></i>
+												行货保证
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon2"></i>
+													发票保障
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon3"></i>
+													24小时发货
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon4"></i>
+													顺丰包邮
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon5"></i>
+													无忧退换
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon6"></i>
+													先行赔付
+												</a>
+		
+											</dd>
+										</dl>
+									</div>
+									<div class="category-conter">
+										<dl>
+											<dt>
+												<a href="#">手机通讯</a>	
+											</dt>
+											<dd>
+												<a href="#">手机</a>
+											</dd>
+											<div class="clear"></div>
+											<dt><a href="#">手机配件</a></dt>
+											<dd>
+											<a href="#">手机保护套</a>
+											<a href="#">移动电源</a>
+											<a href="#">手机电池</a>
+											<a href="#">手机充电器</a>
+											<a href="#">手机数据线</a>
+											<a href="#">手机贴膜</a>	
+											</dd>
+										</dl>
+									</div>
+									<div class="category-link">
+										<a href="#" class="a-link1"></a>
+										<a href="#" class="a-link2"></a>
+										<a href="#" class="a-link3"></a>
+										<a href="#" class="a-link4"></a>
+										<a href="#" class="a-link5"></a>
+										<a href="#" class="a-link6"></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="type">
+								手机通信<span class="icon-1"></span>
+							</div>
+							<div class="contain">
+								<a href="#">手机通信</a>
+								<a href="#">手机配件</a>
+							</div>
+							<div class="category-nav">
+								<div class="category-nav-right">
+									<div class="category-top">
+										<dl>
+											<dt>服务保障</dt>
+											<dd>
+												<a href="#" target="_blank"> 
+												<i class="bb-icon1"></i>
+												行货保证
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon2"></i>
+													发票保障
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon3"></i>
+													24小时发货
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon4"></i>
+													顺丰包邮
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon5"></i>
+													无忧退换
+												</a>
+												<a href="#" target="_blank">
+													<i class="bb-icon6"></i>
+													先行赔付
+												</a>
+		
+											</dd>
+										</dl>
+									</div>
+									<div class="category-conter">
+										<dl>
+											<dt>
+												<a href="#">手机通讯</a>	
+											</dt>
+											<dd>
+												<a href="#">手机</a>
+											</dd>
+											<div class="clear"></div>
+											<dt><a href="#">手机配件</a></dt>
+											<dd>
+											<a href="#">手机保护套</a>
+											<a href="#">移动电源</a>
+											<a href="#">手机电池</a>
+											<a href="#">手机充电器</a>
+											<a href="#">手机数据线</a>
+											<a href="#">手机贴膜</a>	
+											</dd>
+										</dl>
+									</div>
+									<div class="category-link">
+										<a href="#" class="a-link1"></a>
+										<a href="#" class="a-link2"></a>
+										<a href="#" class="a-link3"></a>
+										<a href="#" class="a-link4"></a>
+										<a href="#" class="a-link5"></a>
+										<a href="#" class="a-link6"></a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="nav-ul">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">团购</a></li>
+				<li><a href="#">ZOL智选</a></li>
+				<li><a href="#">DIY攒机馆</a></li>
+			</ul>
+			<div class="nav-tips">
+				<a href="#" target="_blank">双.11提前嗨 1111元抢笔记本电脑！</a>	
+			</div>
+		</div>
+	</div>
+	
+	<div id="warp_cart">
+		<div class="cart_tu">
+			购物车(<span class="num_cart">0</span>)
+		</div>
+		<div class="table_box">
+			<ul class="ul_cart">
+				<li><input type="checkbox" class="all">全选</li>
+				<li class="li_width1">商品</li>
+				<li class="li_width2">属性</li>
+				<li>单价(元)</li>
+				<li>数量</li>
+				<li>小计(元)</li>
+				<li>操作</li>
+			</ul>
+			<div class="trade_box">
+				<!--<div class="shop_name">
+					<input type="checkbox">爱科生活官方旗舰店
+				</div>
+				<ul class="trade_mes">
+					<li class="li_padd"><input type="checkbox" id="all"><img src="../img/product/iphone/iPhone_7_1.jpg"/></li>
+					<li class="li_width1">【入网送500爱科币】苹果 iPhone 7（全网通）</li>
+					<li class="li_width2"></li>
+					<li  class="price_col">¥5180.00</li>
+					<li><span class="delss">-</span><span class="numbers">1</span><span class="addss">+</span></li>
+					<li class="price_col">¥5180.00</li>
+					<li><a href="#">删除</a></li>
+				</ul>
+				<div class="shop_name">
+					<input type="checkbox">爱科生活官方旗舰店
+				</div>
+				<ul class="trade_mes">
+					<li class="li_padd"><input type="checkbox" id="all"><img src="../img/product/iphone/iPhone_7_1.jpg"/></li>
+					<li class="li_width1">【入网送500爱科币】苹果 iPhone 7（全网通）</li>
+					<li class="li_width2"></li>
+					<li  class="price_col">¥5180.00</li>
+					<li><span class="delss">-</span><span class="numbers">1</span><span class="addss">+</span></li>
+					<li class="price_col">¥5180.00</li>
+					<li><a href="#" class="remove">删除</a></li>
+				</ul>-->
+			</div>
+			
+			<ul class="ul_buy">
+				<li><input type="checkbox" class="allTo">全选</li>
+				<li class="li_width1"><a href="###" onclick="removeAll()">删除选中的商品</a>&nbsp;&nbsp;<a href="#">添加到收藏夹</a></li>
+				<li class="li_width2"></li>
+				<li>已选中<span>1</span>件</li>
+				<li>节省¥0.00</li>
+				<li>总价<span class="price_col">¥0</span>(元)</li>
+				<li class="go_buy">去结算</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="footer"></div>
+	<script>
+	$(function(){
+		$('#header').load('common/hearder.html');
+		
+		$('#footer').load('common/footer.html');
+	})
+	</script>
+
+	</body>
+</html>

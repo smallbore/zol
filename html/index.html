@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/goodList.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	
+	
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/common.js"></script>	
+	<script src="../js/index.js"></script>
+	<script src="../js/goodList.js"></script>
+	<script src="../lib/jquery.cxslide.min.js"></script>
+	<script src="../js/footer.js"></script>
+	<script src="../js/login.js"></script>
+	
+</head>
+<body>
+	<div id="header"></div>
+	<div id="nav"></div>
+	
+	<div id="wrap-banner">
+		<div id="banner-box">
+			<div class="banner-left">
+				<div class="focus-box">
+					<ul class="focus-box-ul">
+						<li><a href="#"><img src="../img/index/banner1.jpg" /></a></li>
+						<li><a href="#"><img src="../img/index/banner2.jpg" /></a></li>
+						<li><a href="#"><img src="../img/index/banner3.jpg" /></a></li>
+						<li><a href="#"><img src="../img/index/banner1.jpg" /></a></li>
+						<div class="clear"></div>
+					</ul>
+					<ul class="li-index">
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+					</ul>
+					<span class="next"></span>
+					<span class="prev"></span>
+				</div>
+				<ul class="banner-list">
+					<li>
+						<h5><a href="#">联想 IdeaPad 710S</a></h5>
+						<p>直降500元</p>
+						<a href="#">
+							<img src="../img/index/lianxiang.jpg">
+						</a>
+					</li>
+					<li>
+						<h5><a href="#">乐视 乐Max 2</a></h5>
+						<p>团购价1388元</p>
+						<a href="#">
+							<img src="../img/index/leshi.jpg">
+						</a>
+					</li>
+					<li>
+						<h5><a href="#">苹果 iPhone 4S</a></h5>
+						<p>团购抄底649元</p>
+						<a href="#">
+							<img src="../img/index/iphone4.jpg">
+						</a>
+					</li>
+					<li>
+						<h5><a href="#">小苍VR眼镜</a></h5>
+						<p>团购价：38.8元</p>
+						<a href="#">
+							<img src="../img/index/xiaochang.jpg">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="banner-right">
+				<div class="munual1">
+					<a href="#"><img src="../img/index/munual1.jpg"></a>
+				</div>
+				<div class="munual2">
+					<a href="#"><img src="../img/index/munual2.jpg"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="wrap-goodlist"></div>
+	<div id="footer"></div>
+
+	<!--加载页面head和footer-->
+	<script>
+	$(function(){
+		$('#header').load('common/hearder.html');
+		$('#nav').load('common/nav.html');
+//		$('#wrap-goodlist').load('goodList.html');
+		$('#footer').load('common/footer.html');
+	})
+//			loadHtml("common/hearder.html", "header");
+//			loadHtml("common/nav.html","nav");
+			loadHtml("goodList.html","wrap-goodlist")
+//			loadHtml("common/footer.html", "footer");
+	</script>
+	
+</body>
+</html>

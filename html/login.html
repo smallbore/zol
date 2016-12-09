@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/login.css">
+	
+</head>
+<body class="login-index">
+	
+	<div class="wrapper">
+		<div class="header">
+			<div class="header-logo">
+				<a href="index.html">
+					<img src="../img/login/shop_182x60.png"  />
+					<p>中关村在线旗下网上商城</p>
+				</a>
+			</div>
+			<div class="header-right">
+				还没有ZOL商城账号？<a href="register.html">立即注册</a>
+			</div>
+		</div>
+		<form>
+			<div class="login-wrap">
+				<div class="banner-img">
+					<a href="#"><img src="../img/login/ad2.jpg" /></a>
+				</div>
+				<div class="login-layer">
+					<div class="login-head">
+						<a href="#">手机动态码登录 </a>
+						<h3>登录ZOL商城</h3>
+					</div>
+					<div class="login-content">
+						<div class="login-wrong-tips" id="J_login-wrong-tips"><i class="ioc"></i><span>请填写手机号/邮箱/用户名</span></div>
+						<div class="form-item username">
+							<input type="text" value="" autocomplete="off" placeholder="手机号/邮箱/用户名" class="text" id="J_loginUser" name="zolShopUserName" maxlength="100">
+						</div>
+						<div class="form-item">
+							<input type="password" value="" autocomplete="off" placeholder="密码" class="text" id="J_loginPsw" maxlength="20">
+						</div>
+						<div class="form-other">
+							<a href="#">忘记密码？</a>
+						</div>
+						<input type="button" value="登 录" class="login-layer-btn" id="J_loginBtn">
+						<div class="collaborate">
+							<div class="xian"></div>
+							<p>合作账号登录</p>
+							<div class="xian"></div>
+						</div>
+						<div class="login-foot">
+							<a target="_blank" class="weixin" href="#">用微博账号登录</a>
+	                        <a target="_blank" class="sina" href="#">用微博账号登录</a>
+	                        <a target="_blank" class="qq" href="#">用QQ账号登录</a>
+	                        <a target="_blank" class="alipay" href="#">用支付宝账号登录</a>
+	                        <a target="_blank" class="baidu" href="#">用百度账号</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="footer">
+		<div class="warp-fooer">
+			<div class="about">
+				<a href="#" target="_blank">关于ZOL商城</a>|<a href="#" target="_blank">联系我们</a>|<a href="#" target="_blank">帮助中心</a>
+			</div>
+			<div class="copyright">
+				&copy;<script type="text/javascript">
+				var yearStr;
+	            now = new Date();
+	            yearStr = now.getFullYear();
+            	document.write(yearStr);
+				</script>. 中关村在线 版权所有
+			</div>
+		</div>
+	</div>
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<!-- <script src="../js/index.js"></script> -->
+	<script src="../js/login.js"></script>
+</body>
+</html>

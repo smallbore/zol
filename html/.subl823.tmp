@@ -1,0 +1,174 @@
+<div id="goodlist-ztuan">
+	<div class="goodlist-title">
+		<h3 class="title">全国团购</h3>
+		<p class="more">
+			<a href="#">魅族</a>|
+			<a href="#">三星</a>|
+			<a href="#">苹果</a>|
+			<a href="#">华为</a>|
+			<a href="#">更多团购 <span>></span></a>
+		</p>
+	</div>
+	<div class="ztuan-hot">
+		<dl>
+			<dt><a href="#"><img src="../img/goodList/hot1.jpg"></a></dt>
+			<dd>
+				<span>剩余时间: </span>
+				<i id="1" class="settime" endTime="2016-10-29 12:00:00"></i>
+			</dd>
+		</dl>
+		<dl>
+			<dt><a href="#"><img src="../img/goodList/hot2.jpg"></a></dt>
+			<dd>
+				<span>剩余时间: </span>
+				<i id="1" class="settime" endTime="2016-10-28 14:30:00"></i>
+			</dd>
+		</dl>
+		<dl>
+			<dt><a href="#"><img src="../img/goodList/hot3.jpg"></a></dt>
+			<dd>
+				<span>剩余时间: </span>
+				<i id="1" class="settime" endTime="2016-10-30 7:12:01"></i>
+			</dd>
+		</dl>
+		<dl>
+			<dt><a href="#"><img src="../img/goodList/hot4.jpg"></a></dt>
+			<dd>
+				<span>剩余时间: </span>
+				<i id="1" class="settime" endTime="2016-10-31 18:01:01"></i>
+			</dd>
+		</dl>
+	</div>
+</div>
+<div class="goodlist-product">
+	<div class="goodlist-title">
+		<h3 class="title">1F 手机通信</h3>
+	</div>
+	<div class="product-show">
+		<div class="show-left">
+			<a href="#"><img src="../img/goodList/phone-hot.jpg" /></a>
+		</div>
+		<div class="show-right">
+			<div id="element_id" class="cxslide">
+				<div class="box">
+					<ul class="list">
+						<li><a href="#"><img src="../img/goodList/smallbanner1.jpg" /></a></li>
+						<li><a href="#"><img src="../img/goodList/smallbanner2.jpg" /></a></li>
+						<div class="clear"></div>
+					</ul>
+					
+				</div>
+			</div>
+			<ul class="show-right-ul">
+				<li><a href="#"><img src="../img/goodList/ul-1.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-2.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-3.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-4.jpg" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<ul class="product-brand">
+		<li><a href="#"><img src="../img/goodList/brank1.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank2.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank3.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank4.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank5.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank6.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank7.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank8.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank9.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank10.jpg" /></a></li>
+	</ul>
+</div>
+
+<div class="goodlist-product">
+	<div class="goodlist-title">
+		<h3 class="title">1F 手机通信</h3>
+	</div>
+	<div class="product-show">
+		<div class="show-left">
+			<a href="#"><img src="../img/goodList/phone-hot.jpg" /></a>
+		</div>
+		<div class="show-right">
+			<div id="element_id" class="cxslide">
+				<div class="box">
+					<ul class="list">
+						<li><a href="#"><img src="../img/goodList/smallbanner1.jpg" /></a></li>
+						<li><a href="#"><img src="../img/goodList/smallbanner2.jpg" /></a></li>
+						<div class="clear"></div>
+					</ul>
+					
+				</div>
+			</div>
+			<ul class="show-right-ul">
+				<li><a href="#"><img src="../img/goodList/ul-1.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-2.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-3.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-4.jpg" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<ul class="product-brand">
+		<li><a href="#"><img src="../img/goodList/brank1.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank2.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank3.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank4.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank5.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank6.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank7.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank8.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank9.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank10.jpg" /></a></li>
+	</ul>
+</div>
+
+<div class="goodlist-product">
+	<div class="goodlist-title">
+		<h3 class="title">1F 手机通信</h3>
+	</div>
+	<div class="product-show">
+		<div class="show-left">
+			<a href="#"><img src="../img/goodList/phone-hot.jpg" /></a>
+		</div>
+		<div class="show-right">
+			<div id="element_id" class="cxslide">
+				<div class="box">
+					<ul class="list">
+						<li><a href="#"><img src="../img/goodList/smallbanner1.jpg" /></a></li>
+						<li><a href="#"><img src="../img/goodList/smallbanner2.jpg" /></a></li>
+						<div class="clear"></div>
+					</ul>
+					
+				</div>
+			</div>
+			<ul class="show-right-ul">
+				<li><a href="#"><img src="../img/goodList/ul-1.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-2.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-3.jpg" /></a></li>
+				<li><a href="#"><img src="../img/goodList/ul-4.jpg" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<ul class="product-brand">
+		<li><a href="#"><img src="../img/goodList/brank1.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank2.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank3.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank4.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank5.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank6.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank7.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank8.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank9.jpg" /></a></li>
+		<li><a href="#"><img src="../img/goodList/brank10.jpg" /></a></li>
+	</ul>
+</div>
+
+<div class="goodlist-product">
+	<div class="goodlist-title">
+		<h3 class="title">1F 手机通信</h3>
+		<p class="more">
+			<a href="#">换一批</a>|
+		</p>
+	</div>
+	
+</div>

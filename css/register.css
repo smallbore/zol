@@ -1,0 +1,148 @@
+
+.register-index{
+	background:white;
+}
+.register-top{
+	width:988px;
+	padding:16px 0 16px 90px;
+	background:#FAFAFA;
+	font-size:18px;
+	line-height:28px;
+	color:#999;
+}
+.register-module{
+	padding-top:30px;
+	padding-left:89px;
+	width:500px;
+}
+.register-tab{
+	width:500px;
+	height;39px;
+	border-bottom:1px solid #E6E6E6;
+}
+.register-tab li{
+	width:250px;
+	height:36px;
+	border:1px solid #E6E6E6;
+	border-top:2px solid #c00;
+	margin-bottom:-1px;
+	background:white;
+	border-bottom:0 none;
+	text-align:center;
+	line-height:36px;
+	font-size:18px;
+	color:#c00;
+	font-weight:bold;
+}
+.register-tab li span{
+	display: inline-block;
+	padding-left:20px;
+	height:36px;
+	background:url(../img/register/login-bg.png) no-repeat -158px -235px;
+}
+
+.register-phone-number{
+	padding-top:30px;
+	position:relative;
+}
+
+.register-form{
+	height:39px;
+	line-height:39px;
+	margin-bottom:40px;
+	position:relative;
+	color:#666;
+}
+.register-form .label{
+	padding-left:20px;
+	float:left;
+	font-size:14px;
+	color:#666;
+}
+.register-form .labelleft{
+	padding-left:5px;
+}
+.register-form .label em{
+	padding-top:5px;
+	color:#c00;
+}
+.register-form .text{
+	float:left;
+	border:1px solid #ccc;
+	padding:9px 6px;
+	width:280px;
+}
+.register-form .textmunber{
+	width:130px;
+}
+.wrong-tips{
+	position:absolute;
+	top:0px;
+	left:390px;
+	width:200px;
+	padding-left:20px;
+	background:url(../img/register/login-bg.png) no-repeat -155px -184px;
+}
+.tips{
+	position:absolute;
+	top:30px;
+	left:90px;
+}
+#idcode{
+	float: left;
+	display: inline-block;
+	height: 33px;
+	width:78px;
+	border:1px solid #DEDEDE;
+	margin-left: 10px;
+	font-size:22px;
+	background:#ACE1F1;
+	cursor:pointer;
+	text-align:center;
+}
+#idcode:hover{
+	border-color:fuchsia;
+}
+.idcode{
+	padding-left:10px;
+	float:left;
+	line-height:33px;
+}
+.msncode{
+	float: left;
+	display: inline-block;
+	height: 33px;
+	width:130px;
+	border:1px solid #DEDEDE;
+	margin-left: 10px;
+	font-size:12px;
+	background:#DEDEDE;
+	cursor:pointer;
+	text-align:center;
+}
+.agreement{
+	padding:5px 0 10px 90px;;
+	
+}
+.submit-all{
+	margin:5px 0 90px 90px;
+}
+.register-btn{
+	width:290px;
+	height: 38px;
+	background:red;
+	border-radius:3px;
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}
+.register-btn:hover{
+	background:#A51617;
+}
+.tips-all{
+	position:absolute;
+	bottom:-20px;
+	left:90px;
+	color:red;
+	display: none;
+}

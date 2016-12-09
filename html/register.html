@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<!--<link href="css/jquery.idcode.css" type="text/css" rel="stylesheet">-->
+	
+</head>
+<body class="login-index register-index">
+	
+	<div class="wrapper">
+		<div class="header">
+			<div class="header-logo">
+				<a href="index.html">
+					<img src="../img/login/shop_182x60.png"  />
+					<p>中关村在线旗下网上商城</p>
+				</a>
+			</div>
+			<div class="header-right">
+				已有ZOL商城账号？<a href="login.html">立即登录</a>
+			</div>
+		</div>
+		<form>
+			<div class="login-wrap">
+				<div class="register-top">
+					30秒快速注册，加入ZOL商城
+				</div>
+				<div class="register-module">
+					<ul class="register-tab clear">
+						<li><span>用手机号注册</span></li>
+					</ul>
+					<div class="register-phone-number">
+						<div class="register-form clear">
+							<div class="label">
+								<em>*</em>
+								手机号：
+							</div>
+							<input name="J_register_phone_number" id="J_register_phone_number" type="text" class="text" maxlength="11">
+							<i class="wrong-tips" style="display:none;" id="J_register_phone_tips">手机格式不正确，请重新填写</i>
+							<div class="tips">请填写手机号码</div>
+						</div>
+						<div class="register-form clear">
+							<div class="label">
+								<em>*</em>
+								验证码：
+							</div>
+							<input name="J_register_checkcode_phone" id="J_register_checkcode_phone" type="text" class="text textmunber" maxlength="11">
+							<span id="idcode"></span><a class="idcode">换一张</a>
+							<i class="wrong-tips" style="display:none;" id="J_register_checkcode_tips_phone">验证码输入错误，请重新填写</i>
+							<div class="tips">请填写图片验证码</div>
+						</div>
+						<div class="register-form clear">
+							<div class="label">
+								<em>*</em>
+								验证码：
+							</div>
+							<input disabled="disabled" name="J_register_phone_code" id="J_register_phone_code" type="text" class="text textmunber" maxlength="11">
+							<span class="msncode">获取短信验证码</span>
+							<i class="wrong-tips" style="display:none;" id="J_register_phone_code_tips">短信验证码错误，请重新填写</i>
+							<div class="tips">请填写手机号码，然后点击[获取验证码]</div>
+						</div>
+						<div class="register-form clear">
+							<div class="label">
+								<em>*</em>
+								密&nbsp;&nbsp;&nbsp;码：
+							</div>
+							<input name="J_register_pasword_phone" id="J_register_pasword_phone" type="password" class="text" maxlength="16">
+							<i class="wrong-tips" style="display:none;" id="J_register_pasword_phone_tips">密码格式错误，请重新填写</i>
+							<div class="tips">6-16位字母和数字的组合，不可用特殊字符</div>
+						</div>
+						<div class="register-form clear">
+							<div class="label labelleft">
+								<em>*</em>
+								确认密码：
+							</div>
+							<input name="J_register_reg_pasword_phone" id="J_register_regPasword_phone" type="password" class="text" maxlength="16">
+							<i class="wrong-tips" style="display:none;" id="J_register_regPasword_phone_tips">两次密码不一致，请重新填写</i>
+							<div class="tips">再次输入密码</div>
+						</div>
+						<div class="agreement">
+						<input type="checkbox" value="1" name="J_regRead_phone" id="J_regRead_phone" checked="">同意<a href="#" target="_blank">《商城用户协议》</a><a href="#" target="_blank" class="xy_a">《隐私权说明》</a>
+						</div>
+						<div class="submit-all">
+							<input name="J_register_phone_submit" type="button" value="注册" class="register-btn" id="J_register_phone_submit">
+						</div>
+						<div class="tips-all">用户信息输入错误</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="footer">
+		<div class="warp-fooer">
+			<div class="about">
+				<a href="#" target="_blank">关于ZOL商城</a>|<a href="#" target="_blank">联系我们</a>|<a href="#" target="_blank">帮助中心</a>
+			</div>
+			<div class="copyright">
+				&copy;<script type="text/javascript">
+				var yearStr;
+	            now = new Date();
+	            yearStr = now.getFullYear();
+            	document.write(yearStr);
+				</script>. 中关村在线 版权所有
+			</div>
+		</div>
+	</div>
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/jquery.idcode.js"></script>
+	<script src="../js/register.js"></script>
+	<script src="../js/login.js"></script>
+	
+</body>
+</html>

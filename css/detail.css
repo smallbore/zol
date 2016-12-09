@@ -1,0 +1,208 @@
+#detail_warp{
+	width:1200px;
+	margin:0 auto;
+	
+}
+.detail_bread{
+	padding:8px 0;
+/*	background:orange;*/
+	color:#999;
+}
+.detail_bread a{
+	margin-right: 8px;
+	color:#666;
+}
+.detail_bread a:hover{
+	color:red;
+}
+.detail_inner{
+	border:1px solid #DEDEDE;
+	padding:10px;
+}
+.inner_dl{
+	/*background:#ccc;*/
+	float: left;
+}
+.inner_dl dt{
+	padding:10px;
+	margin-bottom:10px;
+	margin-left: 50px;
+	width:375px
+	/*position:relative;*/
+}
+.inner_dl dt img{
+	width:350px;
+	height: 350px;
+	position:relative;
+}
+.inner_dl dd a{
+	display: inline-block;
+	padding:5px;
+	margin:5px;
+	border:2px solid white;
+}
+.inner_dl dd a.clicked{
+	border-color:#A51617;
+}
+.inner_dl dd img{
+	width:90px;
+	height: 90px;
+}
+
+#pos{
+	width: 100px;
+	height: 100px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#bigpic{
+	position: absolute;
+	top: 180px;
+	left:580px;
+	width: 400px;
+	height: 400px;	
+	overflow: hidden;
+	display:none;
+}
+
+#bigpic img{
+	z-index: 3;
+	width: 1125px;
+	height: 1125px;
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+
+.detail_wrap{
+	width:545px;
+	/*height: 700px;*/
+	padding-left: 5px;
+	float: left;
+	/*background:orange;*/
+}
+.product_name{
+	padding-top:10px;
+	color:#666;
+	font-size:16px;
+}
+.product_sf{
+	color:#999;
+	padding:5px 0;
+	font-size:14px;
+}
+.z_product{
+	background:#ec1c46;
+	padding:18px 0 10px 95px;
+	color:white;
+	margin-top:20px;
+	position:relative;
+}
+.z_product span{
+	color:orange;
+	font-size:14px;
+}
+.ico_product{
+	display:inline-block;
+	width:90px;
+	height: 30px;
+	background:url(../img/product/tuan-logo.png) no-repeat;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.price_det{
+	background:#DEDEDE;
+	color:#666;
+}
+.price_det p{
+	line-height: 30px;
+}
+.price_det .undel{
+	text-decoration:line-through;
+}
+.price_det .hot_col{
+	color:#A51617;
+	font-size:22px;
+	font-weight:bold;
+}
+.del_freight{
+	padding-top:15px;
+	color:#666;
+}
+.del_freight span{
+	border:1px solid #ccc;
+	padding:3px 10px;
+	margin-right: 5px;
+}
+.del_freight em{
+	color:red;
+	font-weight:bold;
+}
+.serves{
+	padding:10px 0 15px 60px;
+	border-bottom:1px solid #DEDEDE;
+}
+.serves a{
+	display:inline-block;
+	padding:2px 10px 6px 23px;
+	color:#666;
+}
+
+.zs-colour-type{
+	padding-top:20px;
+	color:#666;
+}
+.zs-colour-type span{
+	border:1px solid #ccc;
+	padding:5px;
+	margin-left: 10px;
+	cursor:pointer;
+}
+.zs-colour-type .clicked{
+	border-color:#A51617;
+}
+.product_all{
+	margin:10px 0 0 70px;
+	width:400px;
+	background:#DEDEDE;
+	padding:10px;
+}
+.zs-colour-type .delss{
+	padding:5px 10px;
+	background:#DEDEDE;
+	cursor:pointer;
+}
+.zs-colour-type .numbers{
+	padding:5px 10px;
+	margin:0;
+}
+.zs-colour-type .addss{
+	padding:5px 10px;
+	background:#DEDEDE;
+	margin:0;
+	cursor:pointer;
+}
+
+.submit_det{
+	padding-left: 70px;
+	margin:40px 0;
+	color:white;
+}
+.submit_det .submin_but{
+	padding:10px 20px;
+	background:#A51617;
+	cursor:pointer;
+}
+.submit_det .submin_add{
+	padding:10px 20px;
+	background:#FFC0CB;
+	margin-left: 10px;
+	color:red;
+	cursor:pointer;
+}
+

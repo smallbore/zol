@@ -1,0 +1,156 @@
+#footer{
+	width: 100%;
+	border-top:1px solid #ccc;
+	margin-top:30px;
+}
+.footer .wrapper{
+	width:1200px;
+	margin:0 auto;
+}
+.footer-service{
+	width:1200px;
+	padding:30px 0;
+	overflow:hidden;
+
+	border-bottom:1px solid #dedede;
+}
+.footer-service li{
+	float:left;
+	width:200px;
+	background:url(../img/footer/service-bg.png) no-repeat;
+}
+.footer-service .ser-bg2{
+	background-position:0 -52px;
+}
+.footer-service .ser-bg3{
+	background-position:0 -104px;
+}
+.footer-service .ser-bg4{
+	background-position:0 -156px;
+}
+.footer-service .ser-bg5{
+	background-position:0 -208px;
+}
+.footer-service .ser-bg6{
+	background-position:0 -260px;
+}
+
+.footer-service li a{
+	display: block;
+	padding-left:60px;
+}
+.footer-service li a{
+	text-decoration:none;
+}
+.footer-service li a .top{
+	font-size:18px;
+	height:28px;
+	line-height:28px;
+	color:#333;
+}
+.footer-service li a .below{
+	font-size:14px;
+	height:22px;
+	line-height:22px;
+	color:#666;
+}
+.footer-service-relate{
+	padding-top:10px;
+	width:1200px;
+	overflow:hidden;
+}
+.footer-service-relate dl{
+	float:right;
+	width:175px;
+	padding-bottom: 10px;
+}
+.footer-service-relate dl dt{
+	font-size:14px;
+	color:#666;
+	font-weight: bold;
+	line-height: 28px
+}
+.footer-service-relate dl dd p{
+	line-height: 28px;
+}
+.footer-service-relate dl dd a{
+	color:#333;
+}
+
+.footer-nav-bar{
+	background:#2d2d2d;
+	padding:25px 0;
+}
+.partners{
+	width:1000px;
+	padding:0 134px 0 66px;
+	position:relative;
+	color:#ccc;
+}
+.partners .label{
+	position:absolute;
+	top:0;
+	left: 0;
+	color:#ccc;
+	padding:5px 0;
+}
+.partners a{
+	display: inline-block;
+	margin:0 10px;
+	padding:5px 0;
+	color:white;
+}
+
+.footer-nav{
+	width:1200px;
+	padding-top:10px;
+	color:#ccc;
+}
+.footer-nav a{
+	display:inline-block;
+	color:white;
+	margin:5px 10px;
+	
+}
+.copyright{
+	width:1200px;
+	padding-top:10px;
+	color:#ccc;
+}
+.copyright a{
+	display:inline-block;
+	margin:5px 10px;
+	color:#ccc;
+}
+.footer-service-relate .hotline{
+	width:210px;
+	padding-left:55px;
+	background:url(../img/footer/footer.png) no-repeat 0 -90px;
+}
+.footer-service-relate .hotline .weibo{
+	display: block;
+	padding:10px 0 10px 26px;
+	background:url(../img/footer/footer.png) no-repeat;
+}
+.cooperation{
+	padding-left:55px;
+	background:url(../img/footer/footer.png) no-repeat 0 -215px;
+}
+.cooperation a{
+	display: block;
+	width:80px;
+	height:26px;
+	margin-top:10px;
+	border-radius:2px;
+	text-align:center;
+	line-height:26px;
+}
+.cooperation a:hover{
+	background:darkred;
+	text-decoration:none;
+}
+.cooperation .btn{
+	background:red;
+	color:white;
+	padding:0 5px 0 0;
+}
